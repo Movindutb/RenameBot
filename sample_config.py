@@ -11,7 +11,7 @@ class Config(object):
     # Get these values from my.telegram.org
 
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5075166132 1884885842").split())
 
     # Ban Unwanted Members..
     BANNED_USERS = []
